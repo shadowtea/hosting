@@ -6,7 +6,7 @@ import java.nio.file.StandardCopyOption;
 import java.util.Collection;
 public class MoveFiles {
 
-    static String[] FILE_NAMES = {"http-api", "polish", "rlawt", "runelite-api", "runelite-jshell", "runescape-api"};
+    static String[] FILE_NAMES = {"http-api", "polish", "rlawt", "runelite-api", "runelite-jshell", "runescape-api", "runelite-client"};
     public static void main(String[] args) throws IOException {
         String[] extensions = {"jar"};
         Collection<File> files = FileUtils.listFiles(new File(System.getProperty("user.dir") + "/unstable/"), extensions, true);
