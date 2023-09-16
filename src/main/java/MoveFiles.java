@@ -12,7 +12,9 @@ public class MoveFiles {
      * releaseClient
      * make public
      * releaseClient again
+     * make public again
      * MoveFiles
+     * push hosting files
      */
     static String[] FILE_NAMES = {"http-api", "polish", "rlawt", "runelite-api", "runelite-jshell", "runescape-api", "runelite-client"};
     public static void main(String[] args) throws IOException {
