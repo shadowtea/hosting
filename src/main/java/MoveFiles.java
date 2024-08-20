@@ -17,10 +17,10 @@ public class MoveFiles {
      * push hosting files
      */
     static String[] FILE_NAMES = {"http-api", "polish", "rlawt", "runelite-api", "runelite-jshell", "runescape-api", "runelite-client"};
-    static String SNAPSHOT = "4.2.5";
+    static String SNAPSHOT = "4.25.5";
     public static void main(String[] args) throws IOException {
         String[] extensions = {"jar"};
-        Collection<File> files = FileUtils.listFiles(new File(System.getProperty("user.dir") + "/unstable/"), extensions, true);
+        Collection<File> files = FileUtils.listFiles(new File(System.getProperty("user.home") + "/Development/k204/kronos-client/runelite-client/build/repo/com/openosrs/runelite-client/" + SNAPSHOT + "/"), extensions, true);
         files.forEach(file -> {
             for (String fileName : FILE_NAMES) {
                 if (file.getName().contains(fileName) && file.getName().contains(SNAPSHOT)) {
