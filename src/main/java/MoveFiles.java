@@ -25,6 +25,7 @@ public class MoveFiles {
             System.getProperty("user.home") + "/Development/k204/kronos-client/polish/build/repo/com/openosrs/polish/" + SNAPSHOT + "/",
             System.getProperty("user.home") + "/Development/k204/kronos-client/runelite-jshell/build/repo/com/openosrs/runelite-jshell/" + SNAPSHOT + "/",
             System.getProperty("user.home") + "/Development/k204/kronos-client/runescape-api/build/repo/com/openosrs/rs/runescape-api/" + SNAPSHOT + "/",
+            System.getProperty("user.home") + "/Development/k204/kronos-client/runelite-api/build/repo/com/openosrs/runelite-api/" + SNAPSHOT + "/",
             System.getProperty("user.home") + "/Development/k204/kronos-client/runelite-client/build/repo/com/openosrs/runelite-client/" + SNAPSHOT + "/",
     };
 
